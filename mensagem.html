@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base/_reset.css">
+    <link rel="stylesheet" href="css/base/_variaveis.css">
+    <link rel="stylesheet" href="css/base/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/mensagem/mensagem.css">
+    <link rel="stylesheet" href="css/mensagem/chamada-mensagem.css">
+    <link rel="stylesheet" href="css/mensagem/formulario-mensagem.css">
+    <link rel="stylesheet" href="css/rodape.css">
+
+    <title>Adopet - Mensagem</title>
+</head>
+<body class="body__mensagem">
+    <header class="cabecalho">
+        <nav class="cabecalho__navegacao">
+            <ul class="cabecalho__lista">
+                <li class="cabecalho__lista--item">
+                    <img src="assets/Logo-header.svg" alt="Ícone Adopet" class="cabecalho__logo">
+                </li>
+                <li class="cabecalho__lista--item">
+                    <a href="index.html">
+                        <img src="assets/Casa.svg" alt="Ícone de Casa">
+                    </a>
+                </li>
+                <li cabecalho__lista--item>
+                   <a href="mensagem.html">
+                        <img src="assets/Mensagens.svg" alt="Ícone de Mensagens">
+                   </a> 
+                </li>
+            </ul>
+            <a href="perfil.html">
+                <img src="assets/Usuário.svg" alt="Ícone Perfil">
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="chamada-mensagem">
+            <h2 class="chamada-mensagem__titulo">
+                Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:
+            </h2>
+            
+        </section>
+        <form action="" class="formulario-mensagem">
+            <label for="nome" class="formulario-mensagem__label">Nome</label>
+            <input type="text" class="formulario-mensagem__input" placeholder="Insira seu nome completo">
+
+            <label for="telefone" class="formulario-mensagem__label">Telefone</label>
+            <input type="tel" class="formulario-mensagem__input" placeholder="Insira seu telefone e/ou whatsapp">
+
+            <label for="nomeAnimal" class="formulario-mensagem__label">Nome do animal</label>
+            <input type="text" class="formulario-mensagem__input" placeholder="Por qual animal você se interessou?">
+
+            <label for="mensagem" class="formulario-mensagem__label">Mensagem</label>
+            <textarea name="" id="" cols="30" rows="5" class="formulario-mensagem__input" placeholder="Escreva sua mensagem"></textarea>
+
+            <button class="botao formulario-mensagem__botao">Enviar</button>
+        </form>
+    </main>
+    <footer class="rodape">
+        <p>2022 - Desenvolvido por 
+            <a href="#">Nicholas Barbosa</a>
+        </p>
+   </footer>
+</body>
+</html>

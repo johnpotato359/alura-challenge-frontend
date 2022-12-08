@@ -1,0 +1,40 @@
+.cabecalho {
+    min-height: 10vh;
+    padding: 40px 40px;
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__lista {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__lista--item {
+    padding-right: 58px;
+}
+
+.cabecalho__lista--item:nth-of-type(1) {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        padding-left: 0;
+    }
+
+    .cabecalho__lista--item:nth-of-type(1) {
+        display: block;
+    }
+    .cabecalho__logo {
+        width: 128px;
+        display: block;
+        padding-left: 32px;
+
+    }
+    
+}

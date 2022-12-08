@@ -1,0 +1,20 @@
+.body__login {
+    background-color: var(--clr-branco);
+    background-image: url('../../assets/Patas.svg'),
+                      url('../../assets/Forma\ 1.svg'),
+                      url('../../assets/Forma-2-invertida.svg');
+    background-repeat: no-repeat;
+    
+    background-position: 100% 0%, 0 0, 0% 70%;
+}
+
+@media screen and (min-width: 768px) {
+  
+    .body__login {
+        background-image: url('../../assets/Patas.svg'),
+                      url('../../assets/Forma\ 1.svg'),
+                      url('../../assets/Forma\ 2.svg');
+        background-size: 240px 340px, 500px, auto;
+        background-position: 100% 0%, 0 0, 100% 50%;
+    }
+}

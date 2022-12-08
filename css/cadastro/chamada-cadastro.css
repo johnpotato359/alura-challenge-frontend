@@ -1,0 +1,39 @@
+.chamada-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chamada-cadastro__titulo {
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
+.chamada-cadastro__descricao {
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    justify-content: space-between;
+
+    color: var(--clr-azul);
+
+    font-family: var(--ff-poppins);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 131%;
+
+    margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .chamada-cadastro__titulo {
+        width: 250px;
+        margin-top: 56px;
+    }
+    .chamada-cadastro__descricao p{
+        max-width: 475px;
+    }
+}

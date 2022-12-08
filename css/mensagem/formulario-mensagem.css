@@ -1,0 +1,54 @@
+.formulario-mensagem {
+    max-width: 550px;
+
+    background-color: #F6F6F6;
+
+    display: flex;
+    flex-direction: column;
+    
+
+    border-radius: 10px;
+
+    padding: 1.5rem 1rem;
+
+    margin: 16px 32px;
+}
+
+.formulario-mensagem__label {
+    color: var(--clr-azul);
+
+    font-family: var(--ff-poppins);
+    font-weight: 600;
+    font-size: 1rem;
+
+    text-align: left;
+
+    margin-bottom: 8px;
+}
+
+.formulario-mensagem__input {
+    background-color: #FFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    
+    color: #BCBCBC;
+
+    font-family: var(--ff-poppins);
+
+    text-align: left;
+
+    padding: 12px;
+
+    margin-bottom: 16px;
+}
+
+.formulario-mensagem__botao {
+    max-width: 148px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .formulario-mensagem {
+        margin: 16px auto;
+    }
+}

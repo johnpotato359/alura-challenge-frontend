@@ -1,0 +1,25 @@
+.body__inicial {
+    background-image: url('../../assets/Forma\ 1.svg'),
+                        url('../../assets/Forma\ 2.svg'),
+                        url('../../assets/inicial/Ilustração\ 1.svg');
+    background-repeat: no-repeat;
+    background-size: auto, auto, 250px 310px;
+    background-position: 0 0, 100% 40%, 45% 90%;
+}
+
+
+@media screen and (min-width: 768px) { 
+    .body__inicial {
+        background-size: 500px, auto, 280px 280px;
+        background-position: 0 0, 100% 40%, 45% 90%;
+    }
+
+
+}
+
+@media screen and (min-width: 1440px) {
+    .body__inicial {
+        background-size: 500px, auto, 280px 280px;
+        background-position: 0 0, 100% 40%, 50% 90%;
+    }
+}

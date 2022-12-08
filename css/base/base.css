@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;500;600&display=swap');
+
+
+
+html {
+    min-width: 320px;
+    
+}
+
+body {
+    color: var(--clr-branco);
+    background-color: var(--clr-azul);
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main {
+    flex-grow: 1;
+}
+
+.botao {
+    width: 100%;
+    background-color: var(--clr-coral);
+    
+    font-family: var(--ff-poppins);
+    font-weight: 600;
+    font-size: .875rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.formulario__label {
+    text-align: center;
+
+    color: var(--clr-cinza);
+    font-family: var(--ff-poppins);
+    font-weight: 400;
+    font-size: 1rem;
+
+    margin-bottom: 4px;
+}
+
+.formulario__input {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 6px;
+    background-color: #F7f7f7;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+
+    color: #BCBCBC;
+    font-family: var(--ff-poppins);
+    font-weight: 400;
+    font-size: 12px;
+
+    margin-bottom: 20px;
+
+
+    text-align: center;
+
+    padding: 12px;
+}

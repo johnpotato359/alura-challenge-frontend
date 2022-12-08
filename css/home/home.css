@@ -1,0 +1,28 @@
+.body__home {
+    background-color: var(--clr-branco);
+    background-image: url('../../assets/Forma\ 1.svg');
+                      
+    background-repeat: no-repeat;
+    
+    background-position: 0 0;
+}
+
+@media screen and (min-width: 768px) {
+  
+    .body__home {
+        background-image: url('../../assets/Forma\ 1.svg');
+        background-size: 500px;
+        background-position: 0 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+  
+    .body__home {
+        background-image: 
+                      url('../../assets/Forma\ 1.svg'),
+                      url('../../assets/Forma\ 2.svg');
+        background-size: 500px, 134px;
+        background-position: 0 0, 100% 50%;
+    }
+}

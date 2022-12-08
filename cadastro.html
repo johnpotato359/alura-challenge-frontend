@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base/_reset.css">
+    <link rel="stylesheet" href="css/base/_variaveis.css">
+    <link rel="stylesheet" href="css/base/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/cadastro/cadastro.css">
+    <link rel="stylesheet" href="css/cadastro/chamada-cadastro.css">
+    <link rel="stylesheet" href="css/cadastro/formulario-cadastro.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <title>Adopet - Cadastro</title>
+</head>
+<body class="body__cadastro">
+    <header class="cabecalho">
+        <nav class="cabecalho__navegacao">
+            <ul class="cabecalho__lista">
+                <li class="cabecalho__lista--item">
+                    <img src="assets/Logo-header.svg" alt="Ícone Adopet" class="cabecalho__logo">
+                </li>
+                <li class="cabecalho__lista--item">
+                    <a href="index.html">
+                        <img src="assets/Casa.svg" alt="Ícone de Casa">
+                    </a>
+                </li>
+                <li cabecalho__lista--item>
+                   <a href="mensagem.html">
+                        <img src="assets/Mensagens.svg" alt="Ícone de Mensagens">
+                   </a> 
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="chamada-cadastro">
+            <h1 class="chamada-cadastro__titulo"><img src="assets/cadastro/Logo-cadastro.svg" alt="Ícone Adopet"></h1>
+            <div class="chamada-cadastro__descricao">
+                <p>Ainda não tem cadastro?</p>
+                <p>
+                    Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
+                </p>
+            </div>
+        </section>
+        <form action="" class="cadastro__formulario">
+            <label for="email" class="formulario__label">Email</label>
+            <input type="email" placeholder="Escolha o seu melhor email" class="formulario__input">
+
+            <label for="nome" class="formulario__label">Nome</label>
+            <input type="text" placeholder="Digite seu nome completo" class="formulario__input">
+
+            <label for="senha" class="formulario__label">Senha</label>
+            <input type="password" placeholder="Crie uma senha" class="formulario__input">
+
+            <label for="senhaConfirma" class="formulario__label">Confirma sua senha</label>
+            <input type="password" placeholder="Repita a senha criada acima" class="formulario__input">
+
+            <button class="botao cadastro__formulario--botao">Cadastrar</button>
+        </form>
+    </main>
+    <footer class="rodape">
+        <p>2022 - Desenvolvido por 
+            <a href="#">Nicholas Barbosa</a>
+        </p>
+   </footer>
+</body>
+</html>

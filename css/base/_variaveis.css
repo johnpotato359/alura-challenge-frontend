@@ -1,0 +1,11 @@
+:root {
+    --clr-azul: #3772FF;
+    --clr-verde: #36D6AD;
+    --clr-coral: #FC7071;
+    --clr-creme: #FCF0E3;
+    --clr-cinza: #737380;
+    --clr-branco: #fff;
+
+    --ff-poppins:'Poppins', sans-serif;
+    --ff-ibm-plex: 'IBM Plex Sans', sans-serif;
+}

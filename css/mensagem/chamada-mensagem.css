@@ -1,0 +1,19 @@
+.chamada-mensagem__titulo {
+    color: var(--clr-azul);
+    font-family: var(--ff-poppins);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 131%;
+    min-width: 225px;
+    max-width: 525px;
+   
+
+    margin: 0 auto;
+
+    
+}
+
+.chamada-mensagem {
+    margin-left: 32px;
+    margin-right: 32px;
+}

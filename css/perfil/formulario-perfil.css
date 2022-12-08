@@ -1,0 +1,78 @@
+.formulario-perfil {
+    max-width: 550px;
+
+    background-color: #F6F6F6;
+
+    display: flex;
+    flex-direction: column;
+    
+
+    border-radius: 10px;
+
+    padding: 1.5rem 1rem;
+
+    margin: 16px 32px;
+}
+
+.formulario-perfil__titulo {
+    color: var(--clr-cinza);
+
+    font-family: var(--ff-poppins);
+    font-weight: 600;
+    font-size: 1.3125rem;
+
+    margin-bottom: 16px;
+}
+
+.formulario-perfil__foto-editar {
+    color: var(--clr-coral);
+
+    font-family: var(--ff-poppins);
+    font-weight: 400;
+    font-size: 0.75rem;
+
+    margin-bottom: 8px;
+}
+
+.formulario-perfil__label {
+    color: var(--clr-azul);
+
+    font-family: var(--ff-poppins);
+    font-weight: 600;
+    font-size: 1rem;
+
+    text-align: left;
+
+    margin-bottom: 8px;
+}
+
+.formulario-perfil__input {
+    background-color: #FFF;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    
+    color: #BCBCBC;
+
+    font-family: var(--ff-poppins);
+
+    text-align: left;
+
+    padding: 12px;
+
+    margin-bottom: 16px;
+}
+
+.formulario-perfil__input--textarea {
+    font-size: 0.875rem;
+}
+
+.formulario-perfil__botao {
+    max-width: 148px;
+    margin: 8px auto;
+}
+
+@media screen and (min-width: 768px) {
+    .formulario-perfil {
+        margin: 16px auto;
+    }
+}
